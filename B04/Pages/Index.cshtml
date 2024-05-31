@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pocetna";
+}
+
+<div class="slider">
+    <div class="pikaso">Пикасо</div>
+    <div class="opisISlika">
+        <div class="slika">
+            <img src="slike/001.jpg" />
+        </div>
+        <div class="opis">
+            <p id="ime">Звездана ноћ</p>
+            <p id="godina">1889.</p>
+            <p id="opiss">
+                "Звездана ноћ" је једно од најпознатијих дела Ван Гога, насликано 1889. године. Слика приказује ноћно небо пуно звезда изнад мирног градића, са драматичним спиралним облацима и великим светлим месецом. У првом плану се види кипарисово дрво, које додатно наглашава динамику и дубину пејзажа. Слика је инспирисана погледом из Ван Гогове собе у санаторијуму Сен-Реми-де-Прованс у Француској, где се он лечио од менталних проблема.
+            </p>
+        </div>
+    </div>
+    
+</div>
+
+<div class="dots">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
